@@ -1,0 +1,7 @@
+<ironjacamar>
+  <connection-definitions>
+    <connection-definition 
+     class-name="com.sample.adapter.HelloWorldManagedConnectionFactory" 
+     jndi-name="java:/eis/HelloWorld"/>
+  </connection-definitions>
+</ironjacamar>

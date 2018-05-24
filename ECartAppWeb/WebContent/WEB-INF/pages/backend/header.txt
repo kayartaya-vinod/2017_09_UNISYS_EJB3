@@ -1,0 +1,50 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>    
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>    
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="assets/images/cart.png" type="image/png">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width">
+
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/thirdparty/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/thirdparty/font-awesome/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/thirdparty/sweetalert/css/sweetalert.min.css">
+
+<script type="text/javascript" src="${pageContext.request.contextPath}/assets/thirdparty/jquery/js/jquery.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/assets/thirdparty/sweetalert/js/sweetalert.min.js"></script>
+
+<title>eCart</title>
+</head>
+<body>
+	<div class="container">
+		<h1><a href="${initParam.baseUrl}/backend">::eCart - Backend options</a></h1>
+		<h2>Admin options</h2>
+		
+		<a href="${pageContext.request.contextPath}/backend/view-orders">View orders</a> |
+		<a href="">Add new product</a> 
+		
+		<c:if test="${pageContext.request.userPrincipal!=null}">
+		|
+		<a href="${pageContext.request.contextPath}/backend/logout">Logout</a>
+		</c:if>
+		
+		<hr />
+		
+		<!-- main content begins here -->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
